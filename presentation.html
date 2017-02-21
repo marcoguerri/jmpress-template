@@ -1,0 +1,238 @@
+<!--
+Copyright 2017, CERN
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in 
+the Software without restriction, including without limitation the rights to 
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of 
+the Software, and to permit persons to whom the Software is furnished to do so, 
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies 
+or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS 
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR 
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN 
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-->
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, maximum-scale=2.0, initial-scale=1.0, user-scalable=yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <title>A Title for a Great Presentation</title>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jmpress.js"></script>
+    <script type="text/javascript" src="js/graphs.js"></script>
+    <script type="text/javascript" src="js/underscore-min.js"></script>
+    <script type="text/javascript" src="js/presentation.js"></script>
+    <script type="text/javascript" src="js/Chart.min.js"></script>
+
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' 
+          rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,600,400' 
+          rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+<div id="presentation">
+    <div id="title" class="step" data-template="grid">
+            <h2 class="first_slide">Author <br/>
+            <h1 class="first_slide">Title</h1>
+            <h1 class="first_slide">Subtitle</h1>
+            
+            <h2 class="event">Conference Name</h2>
+            <h3 class="event">Date</h3>
+
+        <div id="content_slide" class="step">
+            <h2>Simple slide, bullet points</h2>
+
+            <div id="slide_num">1/num_slides</div>
+            <br>
+            <div width="100%">
+
+            <ul class="bullet-medium">
+                <li>The first bullet
+                <ul>
+                    <li>A sub-itemt</li>
+                </ul>
+                <li>Another point</li>
+                <li>Yet another bullet
+                <ul>
+                    <li>Again another bullet</li>
+                    <li>One more bullet</li>
+                </ul>
+                <li>Bullet, again</li>
+                <li>Guess what, a bullet
+                <ul>
+                    <li>One more sub-item</li>
+                </ul>
+                <li>Aaaand a bullet</li>
+            </ul>
+            </div>
+        </div>
+        
+        <div id="table_slide" class="step">
+            <h2>A slide with a table</h2>
+            
+            <div style="width: 100%; display:table;">
+            <div style="display:table-row">
+
+                <div style="display: table-cell;">
+                    <table class="table-pretty" style="text-align:left">
+                            <tr><td></td></tr>
+                            <tr><td>Item 1</td></tr>
+                            <tr><td>Item 2</td></tr>
+                            <tr><td>Item 3</td></tr>
+                            <tr><td>Item 4</td></tr>
+                            <tr><td>Item 5</td></tr>
+                            <tr><td>Item 6</td></tr>
+                            <tr><td>Item 7</td></tr>
+                            <tr><td>Item 8</td></tr>
+                            <tr><td>Item 9</td></tr>
+                            <tr><td>Item 10</td></tr>
+                            <tr><td>Item 11</td></tr>
+                            <tr><td>Item 12</td></tr>
+                            <tr><td>Item 13</td></tr>
+                            <tr><td>Item 14</td></tr>
+                    </table>
+                </div>
+
+                <div style="display: table-cell;">
+                    <table class="table-pretty">
+                            <tr><td><b>Item 1</b></td></tr>
+                            <tr><td>Item 2</td></tr>
+                            <tr><td>Item 3</td></tr>
+                            <tr><td>Item 4</td></tr>
+                            <tr><td>Item 5</td></tr>
+                            <tr><td>Item 6</td></tr>
+                            <tr><td>Item 7</td></tr>
+                            <tr><td>Item 8</td></tr>
+                            <tr><td>Item 9</td></tr>
+                            <tr><td>Item 10</td></tr>
+                            <tr><td>Item 11</td></tr>
+                            <tr><td>Item 12</td></tr>
+                            <tr><td>Item 13</td></tr>
+                            <tr><td>Item 14</td></tr>
+                            <tr><td>Item 15</td></tr>
+                    </table>
+                </div>
+                
+                <div style="display: table-cell;">
+                    <table class="table-pretty">
+                            <tr><td><b>Item 2</b></td></tr>
+                            <tr><td>Item 1</td></tr>
+                            <tr><td>Item 2</td></tr>
+                            <tr><td>Item 3</td></tr>
+                            <tr><td>Item 4</td></tr>
+                            <tr><td>Item 5</td></tr>
+                            <tr><td>Item 6</td></tr>
+                            <tr><td>Item 7</td></tr>
+                            <tr><td>Item 8</td></tr>
+                            <tr><td>Item 9</td></tr>
+                            <tr><td>Item 10</td></tr>
+                            <tr><td>Item 11</td></tr>
+                            <tr><td>Item 12</td></tr>
+                            <tr><td>Item 13</td></tr>
+                            <tr><td>Item 14</td></tr>
+                    </table>
+                </div>
+                <div style="display: table-cell;">
+                    <table class="table-pretty">
+                            <tr><td><b>Item 3</b></td></tr>
+                            <tr><td>Item 1</td></tr>
+                            <tr><td>Item 2</td></tr>
+                            <tr><td>Item 3</td></tr>
+                            <tr><td>Item 4</td></tr>
+                            <tr><td>Item 5</td></tr>
+                            <tr><td>Item 6</td></tr>
+                            <tr><td>Item 7</td></tr>
+                            <tr><td>Item 8</td></tr>
+                            <tr><td>Item 9</td></tr>
+                            <tr><td>Item 10</td></tr>
+                            <tr><td>Item 11</td></tr>
+                            <tr><td>Item 12</td></tr>
+                            <tr><td>Item 13</td></tr>
+                            <tr><td>Item 14</td></tr>
+                            
+                    </table>
+                </div>
+                <div style="display: table-cell;">
+                    <table class="table-pretty">
+                            <tr><td><b>Item 4</b></td></tr>
+                            <tr><td>Item 1</td></tr>
+                            <tr><td>Item 2</td></tr>
+                            <tr><td>Item 3</td></tr>
+                            <tr><td>Item 4</td></tr>
+                            <tr><td>Item 5</td></tr>
+                            <tr><td>Item 6</td></tr>
+                            <tr><td>Item 7</td></tr>
+                            <tr><td>Item 8</td></tr>
+                            <tr><td>Item 9</td></tr>
+                            <tr><td>Item 10</td></tr>
+                            <tr><td>Item 11</td></tr>
+                            <tr><td>Item 12</td></tr>
+                            <tr><td>Item 13</td></tr>
+                            <tr><td>Item 14</td></tr>
+                    </table>
+                </div>
+            </div>
+            </div>
+            <div id="slide_num">2/slide_num</div>
+
+        </div>
+  
+       <div id="graph_slide_001" class="step">
+            <h2>Line graph slide</h2>
+            <div style="width: 90%; display:table;table-layout:fixed; height:100%">
+                    <div style="display:table-row">
+                        <div style="display:table-cell;vertical-align:top;">
+                            <canvas id="canvas_001"></canvas>
+                        </div>
+                    </div>
+            </div>
+            <script>
+            <!-- Second argument must be the canvas id on which the graph --!>
+            <!-- should be rendered --!>
+            draw_line_chart('line_graph.json', "canvas_001",  "linear");
+            </script>
+            <div id="slide_num">3/slide_num</div>
+        </div>
+
+        <div id="graph_slide_002" class="step">
+            <h2>Bar graphs</h2>
+            <div style="width: 90%; display:table;table-layout:fixed; height:100%">
+                    <div style="display:table-row">
+                        <div style="display:table-cell;vertical-align:top;width:100%;">
+                            <canvas id="canvas_002"></canvas>
+                        </div>
+                    </div>
+            </div>
+            <script>
+            draw_bar_chart('bar_graph.json', "canvas_002");
+            </script>
+            <div id="slide_num">4/slide_num</div>
+        </div>
+
+    </div>
+
+</div>
+<div id="footer"></div>
+<script type="text/javascript">
+$(function() {
+$('#simple').jmpress();
+});
+</script>
+
+</body>
+</html>

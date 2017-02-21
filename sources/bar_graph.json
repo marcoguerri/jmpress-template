@@ -1,0 +1,46 @@
+{
+    "datasets": [
+        {
+            "color": "blue", 
+            "data": [
+                289.48
+            ], 
+            "label": "First bar"
+        }, 
+        {
+            "color": "green", 
+            "data": [
+                119.40 
+            ], 
+            "label": "Second bar"
+        }, 
+        {
+            "color": "black", 
+            "data": [
+                506.12
+            ], 
+            "label": "Third bar"
+        }, 
+        {
+            "color": "orange", 
+            "data": [
+                466.18
+            ], 
+            "label": "Fourth bar"
+        },
+        {
+            "color": "red", 
+            "data": [
+                409.50
+            ], 
+            "label": "Fifth bar"
+        }
+    ], 
+    "labels": [
+        "" 
+    ], 
+    "title": "Title of bar char", 
+    "xlabel": "xlabel of the graph", 
+    "ylabel": "ylabel of the graph"
+}
+
