@@ -2,20 +2,20 @@
 Copyright 2017, CERN
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the "Software"), to deal in 
-the Software without restriction, including without limitation the rights to 
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of 
-the Software, and to permit persons to whom the Software is furnished to do so, 
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
 subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all copies 
+The above copyright notice and this permission notice shall be included in all copies
 or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS 
-FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR 
-COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN 
-AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 
@@ -50,12 +50,12 @@ a:visited{
    position:absolute;
    top:10px;
    right:10px;
-   font-size: 0.5em; 
-   text-align: left; 
-   color: #0053A1; 
-   margin-top: 20px; 
-   margin-left: 50px; 
-   font-weight: bold; 
+   font-size: 0.5em;
+   text-align: left;
+   color: #0053A1;
+   margin-top: 20px;
+   margin-left: 50px;
+   font-weight: bold;
 }
 
 
@@ -65,44 +65,44 @@ h1, h2, h3, h6 {
     padding-bottom: 0.2em;
 }
 
-h1 { 
-    font-size: 2em; 
-    text-align: left; 
-    color: #0053A1; 
-    margin-top: 20px; 
-    margin-left: 50px; 
-    font-weight: bold; 
+h1 {
+    font-size: 2em;
+    text-align: left;
+    color: #0053A1;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-weight: bold;
 }
 b { color: #0053A1; }
 
-h2 { 
-    font-size: 1.5em; 
-    color: #0053A1; 
-    padding-bottom: 0px; 
-    text-align: center; 
-    padding-top: 0px; 
+h2 {
+    font-size: 1.5em;
+    color: #0053A1;
+    padding-bottom: 0px;
+    text-align: center;
+    padding-top: 0px;
 }
 
 b { color: #0053A1; }
 h3 {
-     
-    font-size: 1.5em; 
-    color: #0053A1; 
-    padding-bottom: 0px; 
-    text-align: center; 
-    font-weight: bold; 
+
+    font-size: 1.5em;
+    color: #0053A1;
+    padding-bottom: 0px;
+    text-align: center;
+    font-weight: bold;
 }
-h3 b { 
-    font-size: 1.1em; 
+h3 b {
+    font-size: 1.1em;
 }
 
-h3.lone { 
-    text-align: center; 
+h3.lone {
+    text-align: center;
 }
 
-h4 { 
-    font-size: 0.6em; 
-    margin-bottom: 0.2em; 
+h4 {
+    font-size: 0.6em;
+    margin-bottom: 0.2em;
 }
 
 h6 {
@@ -110,31 +110,32 @@ h6 {
 
 }
 
-ul li { 
-    list-style-type: disc; 
-    font-size: 1.2em; 
+ul li {
+    list-style-type: disc;
+    font-size: 1.2em;
     margin-top: 0.05em;
     margin-left: 10%;
-    margin-right: 10%; 
-    font-weight: 600; 
+    margin-right: 10%;
+    font-weight: 600;
 }
 
-ul li ul li { 
-    list-style-type: square; 
-    padding-left: 0.0em; 
-    text-indent: 0; 
-    margin-left: 10%; 
-    font-weight: normal; 
-    font-size: 90%; 
+ul li ul li {
+    list-style-type: square;
+    padding-left: 0.0em;
+    text-indent: 0;
+    margin-left: 10%;
+    font-weight: normal;
+    font-size: 90%;
 }
 
-ul li ul li:before { 
-    content: ""; 
-    position: relative; 
-    left: 0; 
+ul li ul li:before {
+    content: "";
+    position: relative;
+    left: 0;
 }
 
-    
+
+
 .step {
     width: 1280px;
     height: 800px;
@@ -183,53 +184,55 @@ ul li ul li:before {
    background-color:#22529E;
 }
 
-h1.first_slide  { 
-    text-align: left; 
-    margin: 0;  
-    padding: 0; 
-    display: block; 
-    font-size: 1.5em; 
+h1.first_slide  {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-size: 1.5em;
 }
 
-h2.first_slide { 
-    text-align: left; 
-    margin: 0; 
-    margin-top: 20%; 
-    padding: 0;  
-    font-size: 0.8em; 
+h2.first_slide {
+    text-align: left;
+    margin: 0;
+    margin-top: 20%;
+    padding: 0;
+    font-size: 0.8em;
 }
 
 /* Name and date of the event/conference */
-h2.event  { 
-    text-align: left; 
-    margin: 0; 
-    padding: 0;  
+h2.event  {
+    text-align: left;
+    margin: 0;
+    padding: 0;
     margin-top: 10%;
-    font-size: 0.8em; 
+    font-size: 0.8em;
 }
 
-h3.event  { 
-    text-align: left; 
-    margin: 0; 
-    padding: 0;  
-    font-size: 0.8em; 
+h3.event  {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-size: 0.8em;
 }
 
 
 table.table-pretty {
     margin-left: auto;
     font-size: 0.6em;
-    border-collapse: separate;
     width: 95%;
     border-spacing: 0;
     margin-top: 3em;
     text-align: center;
 }
 
+table.table-pretty td {
+    padding:0 0 0 0;
+
+}
+
 table.table-pretty tr:first-child  {
     text-align: center;
-    border-spacing: 100px 100px;
-    border-collapse:separate;
     background: #D2D2D2;
 }
 
@@ -243,5 +246,49 @@ table.table-pretty tr:nth-child(2n+3){
 
 table.table-pretty tr:nth-child(2n+2) {
     background-color: #FFFFFF;
+}
+
+.zoomedin_picture_notes {
+    font-size: 60%;
+    margin-left: 0%
+}
+
+
+div.dual-graph {
+    width: 50%;
+    display: table-cell;
+    vertical-align:middle;
+    font-size:40%;
+    text-align:center;
+}
+
+img.dual-graph {
+    height: 60%;
+    display:block;
+    margin:auto;
+}
+
+table.table-dual-graph {
+    margin-left: auto;
+    font-size: 0.6em;
+    border-collapse: separate;
+    width: 95%;
+    border-spacing: 0;
+    margin-top: 50px;
+}
+
+table.table-dual-graph tr:first-child  {
+    text-align: center;
+    border-spacing: 100px 100px;
+    border-collapse:separate;
+    background: #D2D2D2;
+}
+
+table.table-dual-graph td:nth-child(2){
+    text-align:right;
+}
+
+table.table-dual-graph tr:nth-child(2n+3){
+    background-color: #EDEDED;
 }
 

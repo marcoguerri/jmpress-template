@@ -2,20 +2,20 @@
 Copyright 2017, CERN
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the "Software"), to deal in 
-the Software without restriction, including without limitation the rights to 
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of 
-the Software, and to permit persons to whom the Software is furnished to do so, 
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
 subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all copies 
+The above copyright notice and this permission notice shall be included in all copies
 or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS 
-FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR 
-COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN 
-AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 -->
 
@@ -37,9 +37,9 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
     <link href="style.css" rel="stylesheet" type="text/css"/>
 
-    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' 
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700'
           rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,600,400' 
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,600,400'
           rel='stylesheet' type='text/css'>
 
 </head>
@@ -50,14 +50,14 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
             <h2 class="first_slide">Author <br/>
             <h1 class="first_slide">Title</h1>
             <h1 class="first_slide">Subtitle</h1>
-            
+
             <h2 class="event">Conference Name</h2>
             <h3 class="event">Date</h3>
 
         <div id="content_slide" class="step">
             <h2>Simple slide, bullet points</h2>
 
-            <div id="slide_num">1/num_slides</div>
+            <div id="slide_num">x/slide_num</div>
             <br>
             <div width="100%">
 
@@ -81,10 +81,10 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
             </ul>
             </div>
         </div>
-        
+
         <div id="table_slide" class="step">
             <h2>A slide with a table</h2>
-            
+
             <div style="width: 100%; display:table;">
             <div style="display:table-row">
 
@@ -127,7 +127,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
                             <tr><td>Item 15</td></tr>
                     </table>
                 </div>
-                
+
                 <div style="display: table-cell;">
                     <table class="table-pretty">
                             <tr><td><b>Item 2</b></td></tr>
@@ -164,7 +164,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
                             <tr><td>Item 12</td></tr>
                             <tr><td>Item 13</td></tr>
                             <tr><td>Item 14</td></tr>
-                            
+
                     </table>
                 </div>
                 <div style="display: table-cell;">
@@ -188,10 +188,83 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
                 </div>
             </div>
             </div>
-            <div id="slide_num">2/slide_num</div>
+            <div id="slide_num">x/slide_num</div>
 
         </div>
-  
+        <div id="zoomedin_picture_slide_001" class="step">
+            <h2>Slide with zoomed-in picture</h2>
+
+            <div id="slide_num">x/slide_num</div>
+            <div style="width: 100%; display:table;">
+                <div style="width: 100%; display:table-row;">
+                    <div style="width: 40%;display: table-cell;">
+                        <img src="img/picture.jpg" 
+                             style="height: 14%; width:auto;margin-left:30%">
+                    </div>
+                    <div style="width: 60%; display: table-cell; vertical-align:top;">
+                        <img src="img/picture_zoom.jpg" style="height: 27%; width:auto;">
+
+                        <ul class="zoomedin_picture_notes">
+                            <li>What those pictures represent
+                            <ul>
+                                <li>First point about those pictures</li>
+                                <li>Second point about those pictures</li>
+                                <li>Third point about those pictures</li/>
+                            </ul>
+                        </li>
+                            <li>One more point about those pictures
+                            <li>Yet another point about those pictures</li>
+                            <li>One more point about those pictures</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="slide_dual_graph" class="step">
+            <h2>Comparison</h2>
+
+            <div id="slide_num">x/slide_num</div>
+            <div style="width: 70%; display:table;margin:auto;">
+
+            <div style="display:table-row">
+                <div class="dual-graph">
+                        <b>A meaningful graph</b>
+                        <img src="img/graph_001.png" class="dual-graph">
+                </div>
+                <div class="dual-graph">
+                        <b>Another meaningful graph</b>
+                        <img src="img/graph_002.png" class="dual-graph">
+                </div>
+            </div>
+            <div style="display:table-row">
+                <div style="width: 40%;display: table-cell;">
+                    <table class="table-dual-graph">
+                            <tr><td colspan="2">Notes</td></tr>
+                            <tr><td><b>Line 1</b></td><td>A commment <b>in bold</b></td></tr>
+                            <tr><td><b>Line 2</b></td><td>A commment <b>in bold</b></td></tr>
+                            <tr><td><b>Line 3</b></td><td>A commment <b>in bold</b></td></tr>
+                            <tr><td><b>Line 4</b></td><td>A commment <b>in bold</b></td></tr>
+                            <tr><td><b>Line 5</b></td><td>A commment <b>in bold</b></td></tr>
+                    </table>
+                </div>
+                <div style="width: 60%;display: table-cell;">
+                    <table class="table-dual-graph">
+                            <tr><td colspan="2">Notes</td></tr>
+                            <tr><td><b>Line 1</b></td><td>A commment <b>in bold</b></td></tr>
+                            <tr><td><b>Line 2</b></td><td>A commment <b>in bold</b></td></tr>
+                            <tr><td><b>Line 3</b></td><td>A commment <b>in bold</b></td></tr>
+                            <tr><td><b>Line 4</b></td><td>A commment <b>in bold</b></td></tr>
+                            <tr><td><b>Line 5</b></td><td>A commment <b>in bold</b></td></tr>
+                    </table>
+                </div>
+
+            </div>
+            </div>
+       </div>
+
+
        <div id="graph_slide_001" class="step">
             <h2>Line graph slide</h2>
             <div style="width: 90%; display:table;table-layout:fixed; height:100%">
@@ -203,10 +276,10 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
             </div>
             <script>
             <!-- Second argument must be the canvas id on which the graph --!>
-            <!-- should be rendered --!>
+            <!-- will be rendered --!>
             draw_line_chart('line_graph.json', "canvas_001",  "linear");
             </script>
-            <div id="slide_num">3/slide_num</div>
+            <div id="slide_num">x/slide_num</div>
         </div>
 
         <div id="graph_slide_002" class="step">
@@ -221,7 +294,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
             <script>
             draw_bar_chart('bar_graph.json', "canvas_002");
             </script>
-            <div id="slide_num">4/slide_num</div>
+            <div id="slide_num">x/slide_num</div>
         </div>
 
     </div>
